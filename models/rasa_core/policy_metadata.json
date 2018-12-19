@@ -1,0 +1,80 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "alasan",
+        "start_date",
+        "tipe_cuti",
+        "alamat",
+        "trip_pulang",
+        "telepon",
+        "trip_berangkat"
+      ]
+    },
+    "utter_thanks": {
+      "slots": []
+    },
+    "utter_tipe_cuti": {
+      "slots": [
+        "tipe_cuti"
+      ]
+    },
+    "utter_start_date": {
+      "slots": [
+        "start_date"
+      ]
+    },
+    "utter_lama_cuti": {
+      "slots": [
+        "lama_cuti"
+      ]
+    },
+    "utter_alamat": {
+      "slots": [
+        "alamat"
+      ]
+    },
+    "utter_telepon": {
+      "slots": [
+        "telepon"
+      ]
+    },
+    "utter_alasan": {
+      "slots": [
+        "alasan"
+      ]
+    },
+    "utter_trip_berangkat": {
+      "slots": [
+        "trip_berangkat"
+      ]
+    },
+    "utter_trip_pulang": {
+      "slots": [
+        "trip_pulang"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_ask_cuti": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.13.0a3",
+  "python": "3.6.7",
+  "max_histories": [
+    5,
+    null,
+    5,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20181219-042744"
+}

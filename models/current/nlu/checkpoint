@@ -1,0 +1,2 @@
+model_checkpoint_path: "/var/www/html/react-native/CUTIBOT/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/var/www/html/react-native/CUTIBOT/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"

@@ -1,0 +1,56 @@
+version: '3.0'
+
+services:
+  rasa_core:
+    image: rasa/rasa_core:latest
+    ports:
+      - 5005:5005
+    volumes:
+      - ./models/rasa_core:/app/models
+      - ./config:/app/config
+    command:
+      - start
+      - --core
+      - models
+      - -c
+      - rest
+      - --endpoints
+      - config/endpoints.yml
+      - -u
+      - current/
+      - --debug
+  rasa_nlu:
+    image: rasa/rasa_nlu:latest-full
+    volumes:
+      - ./models/rasa_nlu:/app/models
+      - ./config:/app/config
+    command:
+      - start
+      - --path
+      - models
+      - -c
+      - config/nlu_config.yml
+  action_server:
+    image: rasa-core-sdk-custom:latest
+    volumes:
+      - ./actions:/app/actions
+  mongo-express:
+    image: mongo-express
+    environment:
+      - ME_CONFIG_OPTIONS_EDITORTHEME=ambiance
+      - ME_CONFIG_MONGODB_SERVER=mongo
+      - ME_CONFIG_MONGODB_PORT=27017
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=rasa
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=example
+    ports:
+      - "8081:8081"
+    links:
+      - mongo
+  mongo:
+    image: mongo:latest
+    command: mongod --port 27017
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=rasa
+      - MONGO_INITDB_ROOT_PASSWORD=example

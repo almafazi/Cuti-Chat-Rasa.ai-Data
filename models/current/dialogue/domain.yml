@@ -1,0 +1,126 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_cuti
+- utter_lama_cuti
+- utter_alamat
+- utter_telepon
+- utter_alasan
+- utter_start_date
+- utter_konfirmasi
+- utter_ask_trip
+- utter_trip_berangkat
+- utter_trip_pulang
+- utter_tipe_cuti
+- utter_thanks
+- action_get_time
+config:
+  store_entities_as_slots: true
+entities:
+- ask_cuti
+- tipe_cuti
+- start_date
+- lama_cuti
+- alamat
+- telepon
+- alasan
+- ask_trip
+- trip_berngkat
+- trip_pulang
+- konfirmasi
+intents:
+- lama_cuti:
+    use_entities: true
+- alamat:
+    use_entities: true
+- konfirmasi:
+    use_entities: true
+- trip_berngkat:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- start_date:
+    use_entities: true
+- alasan:
+    use_entities: true
+- telepon:
+    use_entities: true
+- thanks:
+    use_entities: true
+- greet:
+    use_entities: true
+- trip_pulang:
+    use_entities: true
+- ask_cuti:
+    use_entities: true
+- ask_trip:
+    use_entities: true
+- tipe_cuti:
+    use_entities: true
+slots:
+  alamat:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  alasan:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  lama_cuti:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  start_date:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  telepon:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  time:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  tipe_cuti:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  trip_berangkat:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  trip_pulang:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_alamat:
+  - text: Boleh tau no. HP nya?
+  utter_alasan:
+  - text: Apakah mau memakai cuti perjalanan?
+  utter_ask_cuti:
+  - text: Siap, mau pakai kuota cuti apa?
+  utter_ask_trip:
+  - text: Berapa hari perjalanan cuti berangkat anda?
+  utter_goodbye:
+  - text: Goodbye!
+  utter_greet:
+  - text: Selamat pagi, ada yang bisa dibantu?
+  utter_konfirmasi:
+  - text: Kami konfirmasi lagi yaa , anda akan melakukan dengan menggunakan kuota
+      cuti {tipe_cuti}, cuti dari {start_date} sampai (ga ada ini) alamat cuti di
+      {alamat} dengan lama perjalanan cuti berangkat {trip_berangkat} dan lama perjalanan
+      cuti pulang {trip_pulang} , Nomor telepon yang bisa dihubungi adalah {telepon},
+      Alasan cuti adalah {alasan}, Apakah Betul?
+  utter_lama_cuti:
+  - text: Boleh tau alamat selama cuti dimana?
+  utter_start_date:
+  - text: Sip, cuti dari {start_date} yaaa..., mau berapa hari ambil cuti nya?
+  utter_telepon:
+  - text: Keterangan atau alasan selama cuti?
+  utter_thanks:
+  - text: Haturnuhun
+  utter_tipe_cuti:
+  - text: okay, memakai kuota cuti {tipe_cuti} ya, Mau cuti mulai tanggal berapa nih?
+  utter_trip_berangkat:
+  - text: Berapa hari perjalanan cuti pulang anda?
+  utter_trip_pulang:
+  - text: Kami konfirmasi lagi yaa , anda akan melakukan dengan menggunakan kuota
+      cuti {tipe_cuti}, cuti dari {start_date} sampai (ga ada ini) alamat cuti di
+      {alamat} dengan lama perjalanan cuti berangkat {trip_berangkat} dan lama perjalanan
+      cuti pulang {trip_pulang} , Nomor telepon yang bisa dihubungi adalah {telepon},
+      Alasan cuti adalah {alasan}, Apakah Betul?

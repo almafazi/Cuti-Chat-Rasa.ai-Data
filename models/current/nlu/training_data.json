@@ -1,0 +1,2028 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "helo"
+      },
+      {
+        "intent": "greet",
+        "text": "gan"
+      },
+      {
+        "intent": "greet",
+        "text": "cuk"
+      },
+      {
+        "intent": "greet",
+        "text": "bro"
+      },
+      {
+        "intent": "greet",
+        "text": "sis"
+      },
+      {
+        "intent": "greet",
+        "text": "hay"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat pagi"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat siang"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat sore"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat malam"
+      },
+      {
+        "intent": "greet",
+        "text": "met pagi"
+      },
+      {
+        "intent": "greet",
+        "text": "met siang"
+      },
+      {
+        "intent": "greet",
+        "text": "met malam"
+      },
+      {
+        "intent": "greet",
+        "text": "met sore"
+      },
+      {
+        "intent": "greet",
+        "text": "kang"
+      },
+      {
+        "intent": "greet",
+        "text": "aslm"
+      },
+      {
+        "intent": "greet",
+        "text": "assalamualaykum"
+      },
+      {
+        "intent": "greet",
+        "text": "salam"
+      },
+      {
+        "intent": "greet",
+        "text": "assalamualaikum"
+      },
+      {
+        "intent": "greet",
+        "text": "assalam"
+      },
+      {
+        "intent": "greet",
+        "text": "asslm"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "cuti"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "mau cuti bos"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "buatkan saya cuti"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "cuti gan"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "gan saya mau cuti"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "cuti bro"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "cuti kuy"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "mau cuti"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "cuti bos"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "saya mau cuti"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "meh cuti"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "pengen cuti"
+      },
+      {
+        "intent": "ask_cuti",
+        "text": "ingin cuti"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 17,
+            "value": "tahunan",
+            "entity": "tipe_cuti",
+            "end": 24
+          }
+        ],
+        "text": "pakai kuota cuti tahunan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 6,
+            "value": "perjalanan",
+            "entity": "tipe_cuti",
+            "end": 16
+          }
+        ],
+        "text": "pakai perjalanan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 6,
+            "value": "penting",
+            "entity": "tipe_cuti",
+            "end": 13
+          }
+        ],
+        "text": "kuota penting"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 11,
+            "value": "tahunan",
+            "entity": "tipe_cuti",
+            "end": 18
+          }
+        ],
+        "text": "make kuota tahunan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 11,
+            "value": "perjalanan",
+            "entity": "tipe_cuti",
+            "end": 21
+          }
+        ],
+        "text": "kuota cuti perjalanan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 5,
+            "value": "tahunan",
+            "entity": "tipe_cuti",
+            "end": 12
+          }
+        ],
+        "text": "cuti tahunan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 5,
+            "value": "tahunan",
+            "entity": "tipe_cuti",
+            "end": 12
+          }
+        ],
+        "text": "make tahunan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 5,
+            "value": "tahunan",
+            "entity": "tipe_cuti",
+            "end": 12
+          }
+        ],
+        "text": "pake tahunan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 14,
+            "value": "perjalanan",
+            "entity": "tipe_cuti",
+            "end": 24
+          }
+        ],
+        "text": "kuota cuti ku perjalanan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 8,
+            "value": "tahunan",
+            "entity": "tipe_cuti",
+            "end": 15
+          }
+        ],
+        "text": "memakai tahunan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 19,
+            "value": "tahunan",
+            "entity": "tipe_cuti",
+            "end": 26
+          }
+        ],
+        "text": "saya memakai kuota tahunan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 6,
+            "value": "tahunan",
+            "entity": "tipe_cuti",
+            "end": 13
+          }
+        ],
+        "text": "pakai tahunan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 0,
+            "value": "tahunan",
+            "entity": "tipe_cuti",
+            "end": 7
+          }
+        ],
+        "text": "tahunan"
+      },
+      {
+        "intent": "tipe_cuti",
+        "entities": [
+          {
+            "start": 0,
+            "value": "bulanan",
+            "entity": "tipe_cuti",
+            "end": 7
+          }
+        ],
+        "text": "bulanan"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 14,
+            "value": "1 november 2018",
+            "entity": "start_date",
+            "end": 29
+          }
+        ],
+        "text": "mulai tanggal 1 november 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 13,
+            "value": "2 november 2018",
+            "entity": "start_date",
+            "end": 28
+          }
+        ],
+        "text": "dari tanggal 2 november 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 8,
+            "value": "9 november 2018",
+            "entity": "start_date",
+            "end": 23
+          }
+        ],
+        "text": "tanggal 9 november 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 6,
+            "value": "3 januari 2018",
+            "entity": "start_date",
+            "end": 20
+          }
+        ],
+        "text": "mulai 3 januari 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 8,
+            "value": "4 oktober 2019",
+            "entity": "start_date",
+            "end": 22
+          }
+        ],
+        "text": "tanggal 4 oktober 2019"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 13,
+            "value": "5 september 2019",
+            "entity": "start_date",
+            "end": 29
+          }
+        ],
+        "text": "dari tanggal 5 september 2019"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 14,
+            "value": "7 desember 2018",
+            "entity": "start_date",
+            "end": 29
+          }
+        ],
+        "text": "mulai tanggal 7 desember 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 8,
+            "value": "12 februari 2018",
+            "entity": "start_date",
+            "end": 24
+          }
+        ],
+        "text": "tanggal 12 februari 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 14,
+            "value": "22 maret 2019",
+            "entity": "start_date",
+            "end": 27
+          }
+        ],
+        "text": "mulai tanggal 22 maret 2019"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 6,
+            "value": "30 april 2019",
+            "entity": "start_date",
+            "end": 19
+          }
+        ],
+        "text": "mulai 30 april 2019"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 8,
+            "value": "28 mei 2019",
+            "entity": "start_date",
+            "end": 19
+          }
+        ],
+        "text": "tanggal 28 mei 2019"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 13,
+            "value": "28 juni 2019",
+            "entity": "start_date",
+            "end": 25
+          }
+        ],
+        "text": "dari tanggal 28 juni 2019"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 8,
+            "value": "10 juli 2019",
+            "entity": "start_date",
+            "end": 20
+          }
+        ],
+        "text": "tanggal 10 juli 2019"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 6,
+            "value": "13 agustus 2018",
+            "entity": "start_date",
+            "end": 21
+          }
+        ],
+        "text": "mulai 13 agustus 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 14,
+            "value": "1-11-2018",
+            "entity": "start_date",
+            "end": 23
+          }
+        ],
+        "text": "mulai tanggal 1-11-2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 13,
+            "value": "2-11-2018",
+            "entity": "start_date",
+            "end": 22
+          }
+        ],
+        "text": "dari tanggal 2-11-2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 6,
+            "value": "1-12-2018",
+            "entity": "start_date",
+            "end": 15
+          }
+        ],
+        "text": "mulai 1-12-2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 5,
+            "value": "12-12-2018",
+            "entity": "start_date",
+            "end": 15
+          }
+        ],
+        "text": "dari 12-12-2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 8,
+            "value": "27-12-2018",
+            "entity": "start_date",
+            "end": 18
+          }
+        ],
+        "text": "tanggal 27-12-2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 6,
+            "value": "13 agustus 2018",
+            "entity": "start_date",
+            "end": 21
+          }
+        ],
+        "text": "mulai 13 agustus 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 14,
+            "value": "1 nov 2018",
+            "entity": "start_date",
+            "end": 24
+          }
+        ],
+        "text": "mulai tanggal 1 nov 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 13,
+            "value": "1 jan 2018",
+            "entity": "start_date",
+            "end": 23
+          }
+        ],
+        "text": "dari tanggal 1 jan 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 6,
+            "value": "5 okt 2017",
+            "entity": "start_date",
+            "end": 16
+          }
+        ],
+        "text": "mulai 5 okt 2017"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 5,
+            "value": "6 apr 2019",
+            "entity": "start_date",
+            "end": 15
+          }
+        ],
+        "text": "dari 6 apr 2019"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 8,
+            "value": "17 agts 2019",
+            "entity": "start_date",
+            "end": 20
+          }
+        ],
+        "text": "tanggal 17 agts 2019"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 0,
+            "value": "17 desember 2018",
+            "entity": "start_date",
+            "end": 16
+          }
+        ],
+        "text": "17 desember 2018"
+      },
+      {
+        "intent": "start_date",
+        "entities": [
+          {
+            "start": 0,
+            "value": "13 januari 2017",
+            "entity": "start_date",
+            "end": 15
+          }
+        ],
+        "text": "13 januari 2017"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 10,
+            "value": "3 hari",
+            "entity": "lama_cuti",
+            "end": 16
+          }
+        ],
+        "text": "lama cuti 3 hari"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 5,
+            "value": "2 hari",
+            "entity": "lama_cuti",
+            "end": 11
+          }
+        ],
+        "text": "cuti 2 hari"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 7,
+            "value": "2 minggu",
+            "entity": "lama_cuti",
+            "end": 15
+          }
+        ],
+        "text": "selama 2 minggu"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 8,
+            "value": "1 minggu",
+            "entity": "lama_cuti",
+            "end": 16
+          }
+        ],
+        "text": "mau nya 1 minggu"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 8,
+            "value": "1 hari",
+            "entity": "lama_cuti",
+            "end": 14
+          }
+        ],
+        "text": "lamanya 1 hari"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 8,
+            "value": "4 hari",
+            "entity": "lama_cuti",
+            "end": 14
+          }
+        ],
+        "text": "cutinya 4 hari"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 8,
+            "value": "6 hari",
+            "entity": "lama_cuti",
+            "end": 14
+          }
+        ],
+        "text": "bisa ga 6 hari"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 11,
+            "value": "4 hari",
+            "entity": "lama_cuti",
+            "end": 17
+          }
+        ],
+        "text": "maunya sih 4 hari"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 11,
+            "value": "5 hari",
+            "entity": "lama_cuti",
+            "end": 17
+          }
+        ],
+        "text": "rencananya 5 hari aja"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 15,
+            "value": "2 hari",
+            "entity": "lama_cuti",
+            "end": 21
+          }
+        ],
+        "text": "rencananya sih 2 hari saja"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 0,
+            "value": "2 hari",
+            "entity": "lama_cuti",
+            "end": 6
+          }
+        ],
+        "text": "2 hari"
+      },
+      {
+        "intent": "lama_cuti",
+        "entities": [
+          {
+            "start": 0,
+            "value": "1 minggu",
+            "entity": "lama_cuti",
+            "end": 8
+          }
+        ],
+        "text": "1 minggu"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 15,
+            "value": "solo",
+            "entity": "alamat",
+            "end": 19
+          }
+        ],
+        "text": "alamat cuti di solo"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 7,
+            "value": "medan",
+            "entity": "alamat",
+            "end": 12
+          }
+        ],
+        "text": "alamat medan"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 3,
+            "value": "jogja",
+            "entity": "alamat",
+            "end": 8
+          }
+        ],
+        "text": "di jogja"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 3,
+            "value": "papua",
+            "entity": "alamat",
+            "end": 8
+          }
+        ],
+        "text": "ke papua"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 13,
+            "value": "Yogyakarta",
+            "entity": "alamat",
+            "end": 23
+          }
+        ],
+        "text": "alamatnya di Yogyakarta"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 27,
+            "value": "Jalan pagar alama no 54 Sleman Yogyakarta",
+            "entity": "alamat",
+            "end": 68
+          }
+        ],
+        "text": "alamat saya selama cuti di Jalan pagar alama no 54 Sleman Yogyakarta"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 17,
+            "value": "jalan baru no 54 rt4 rw5 bandung , jawa barat",
+            "entity": "alamat",
+            "end": 62
+          }
+        ],
+        "text": "sementara saya dijalan baru no 54 rt4 rw5 bandung , jawa barat"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 12,
+            "value": "jl. Solo no 54",
+            "entity": "alamat",
+            "end": 26
+          }
+        ],
+        "text": "tepatnya di jl. Solo no 54"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 28,
+            "value": "jl baru",
+            "entity": "alamat",
+            "end": 35
+          }
+        ],
+        "text": "saya selama cuti tinggal di jl baru"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 16,
+            "value": "jawa barat",
+            "entity": "alamat",
+            "end": 26
+          }
+        ],
+        "text": "saya tinggal di jawa barat"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 12,
+            "value": "bandung",
+            "entity": "alamat",
+            "end": 19
+          }
+        ],
+        "text": "tujuan saya bandung"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 16,
+            "value": "jalan cicahem",
+            "entity": "alamat",
+            "end": 29
+          }
+        ],
+        "text": "saya tinggal di jalan cicahem"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 0,
+            "value": "Yogyakarta",
+            "entity": "alamat",
+            "end": 10
+          }
+        ],
+        "text": "Yogyakarta"
+      },
+      {
+        "intent": "alamat",
+        "entities": [
+          {
+            "start": 0,
+            "value": "jalan baru no 54 rt4 rw5 bandung , jawa barat",
+            "entity": "alamat",
+            "end": 45
+          }
+        ],
+        "text": "jalan baru no 54 rt4 rw5 bandung , jawa barat"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 11,
+            "value": "085725629333",
+            "entity": "telepon",
+            "end": 23
+          }
+        ],
+        "text": "no hp saya 085725629333"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 11,
+            "value": "0217687465",
+            "entity": "telepon",
+            "end": 21
+          }
+        ],
+        "text": "nomor saya 0217687465"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 3,
+            "value": "081958464689",
+            "entity": "telepon",
+            "end": 15
+          }
+        ],
+        "text": "no 081958464689"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 4,
+            "value": "0272551215",
+            "entity": "telepon",
+            "end": 14
+          }
+        ],
+        "text": "ini 0272551215"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 12,
+            "value": "085658464689",
+            "entity": "telepon",
+            "end": 24
+          }
+        ],
+        "text": "ini no saya 085658464689"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 18,
+            "value": "081958464680",
+            "entity": "telepon",
+            "end": 30
+          }
+        ],
+        "text": "bisa dihubungi no 081958464680"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 7,
+            "value": "081358464689",
+            "entity": "telepon",
+            "end": 19
+          }
+        ],
+        "text": "kesini 081358464689"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 18,
+            "value": "081658464689",
+            "entity": "telepon",
+            "end": 30
+          }
+        ],
+        "text": "ini nomor hp saya 081658464689"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 18,
+            "value": "081258464683",
+            "entity": "telepon",
+            "end": 30
+          }
+        ],
+        "text": "ini nomer hp saya 081258464683"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 16,
+            "value": "0815727627",
+            "entity": "telepon",
+            "end": 26
+          }
+        ],
+        "text": "hubungi saya di 0815727627"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 14,
+            "value": "081858464689",
+            "entity": "telepon",
+            "end": 26
+          }
+        ],
+        "text": "nomer hp saya 081858464689"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 0,
+            "value": "081958464689",
+            "entity": "telepon",
+            "end": 12
+          }
+        ],
+        "text": "081958464689"
+      },
+      {
+        "intent": "telepon",
+        "entities": [
+          {
+            "start": 0,
+            "value": "021374859",
+            "entity": "telepon",
+            "end": 9
+          }
+        ],
+        "text": "021374859"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 9,
+            "value": "liburan",
+            "entity": "alasan",
+            "end": 16
+          }
+        ],
+        "text": "saya mau liburan"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 4,
+            "value": "pualang kampung",
+            "entity": "alasan",
+            "end": 19
+          }
+        ],
+        "text": "mau pualang kampung"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 6,
+            "value": "main ke kampung",
+            "entity": "alasan",
+            "end": 21
+          }
+        ],
+        "text": "ingin main ke kampung"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 7,
+            "value": "urusan keluarga",
+            "entity": "alasan",
+            "end": 22
+          }
+        ],
+        "text": "pengen urusan keluarga"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 12,
+            "value": "urusan pribadi",
+            "entity": "alasan",
+            "end": 26
+          }
+        ],
+        "text": "alasan saya urusan pribadi"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 19,
+            "value": "kegiatan kantor",
+            "entity": "alasan",
+            "end": 34
+          }
+        ],
+        "text": "alasan saya adalah kegiatan kantor"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 7,
+            "value": "menantu",
+            "entity": "alasan",
+            "end": 14
+          }
+        ],
+        "text": "karena menantu"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 10,
+            "value": "pergi ke luar negri",
+            "entity": "alasan",
+            "end": 29
+          }
+        ],
+        "text": "alasanya  pergi ke luar negri"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 34,
+            "value": "saya dan keluarga besar saya ingin naik haji",
+            "entity": "alasan",
+            "end": 78
+          }
+        ],
+        "text": "alasan saya mengambil cuti adalah saya dan keluarga besar saya ingin naik haji"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 6,
+            "value": "liburan ke papua",
+            "entity": "alasan",
+            "end": 22
+          }
+        ],
+        "text": "ingin liburan ke papua"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 11,
+            "value": "antar anak saya ke sekolah pada pertemuan pertama",
+            "entity": "alasan",
+            "end": 60
+          }
+        ],
+        "text": "saya harus antar anak saya ke sekolah pada pertemuan pertama"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 0,
+            "value": "urusan keluarga",
+            "entity": "alasan",
+            "end": 15
+          }
+        ],
+        "text": "urusan keluarga"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 0,
+            "value": "liburan",
+            "entity": "alasan",
+            "end": 7
+          }
+        ],
+        "text": "liburan"
+      },
+      {
+        "intent": "alasan",
+        "entities": [
+          {
+            "start": 0,
+            "value": "saya dan keluarga besar melaksanakan ibadah umroh",
+            "entity": "alasan",
+            "end": 49
+          }
+        ],
+        "text": "saya dan keluarga besar melaksanakan ibadah umroh"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "ya"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "yes"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "y"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "tidak"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "tdk"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "t"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "no"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "n"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "yo"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "gas"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "betul"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "benar"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "bener"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "sip"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "mantap"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "gaskan"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "tepat"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "tepat sekali"
+      },
+      {
+        "intent": "ask_trip",
+        "text": "gokil"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 15,
+            "value": "1 hari",
+            "entity": "trip_berangkat",
+            "end": 21
+          }
+        ],
+        "text": "trip berangkat 1 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 21,
+            "value": "2 hari",
+            "entity": "trip_berangkat",
+            "end": 27
+          }
+        ],
+        "text": "perjalanan berangkat 2 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 11,
+            "value": "5 hari",
+            "entity": "trip_berangkat",
+            "end": 17
+          }
+        ],
+        "text": "perjalanan 5 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 5,
+            "value": "7 hari",
+            "entity": "trip_berangkat",
+            "end": 11
+          }
+        ],
+        "text": "trip 7 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 10,
+            "value": "7 hari",
+            "entity": "trip_berangkat",
+            "end": 16
+          }
+        ],
+        "text": "berangkat 7 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 18,
+            "value": "4 hari",
+            "entity": "trip_berangkat",
+            "end": 24
+          }
+        ],
+        "text": "membutuhkan waktu 4 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 26,
+            "value": "7 hari",
+            "entity": "trip_berangkat",
+            "end": 32
+          }
+        ],
+        "text": "trip kuota cuti berangkat 7 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 26,
+            "value": "6 hari",
+            "entity": "trip_berangkat",
+            "end": 32
+          }
+        ],
+        "text": "kuota cuti trip berangkat 6 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 21,
+            "value": "5 hari",
+            "entity": "trip_berangkat",
+            "end": 27
+          }
+        ],
+        "text": "saya pakai kuota nya 5 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 11,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 17
+          }
+        ],
+        "text": "saya pakai 3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 27,
+            "value": "1 hari",
+            "entity": "trip_berangkat",
+            "end": 33
+          }
+        ],
+        "text": "kuota berangkat saya pakai 1 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 6,
+            "value": "2 hari",
+            "entity": "trip_berangkat",
+            "end": 12
+          }
+        ],
+        "text": "cukup 2 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 11,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 17
+          }
+        ],
+        "text": "sepertinya 3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 9,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 15
+          }
+        ],
+        "text": "saya mau 3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 14,
+            "value": "7 hari",
+            "entity": "trip_berangkat",
+            "end": 20
+          }
+        ],
+        "text": "memakan waktu 7 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 4,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 10
+          }
+        ],
+        "text": "cus 3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 5,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 11
+          }
+        ],
+        "text": "bisa 3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 11,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 17
+          }
+        ],
+        "text": "bisa pakai 3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 7,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 13
+          }
+        ],
+        "text": "maunya 3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 12,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 18
+          }
+        ],
+        "text": "bisa ga sih 3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 8,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 14
+          }
+        ],
+        "text": "sekitar 3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 5,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 11
+          }
+        ],
+        "text": "yaaa 3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 0,
+            "value": "3 hari",
+            "entity": "trip_berangkat",
+            "end": 6
+          }
+        ],
+        "text": "3 hari"
+      },
+      {
+        "intent": "trip_berangkat",
+        "entities": [
+          {
+            "start": 0,
+            "value": "1 hari",
+            "entity": "trip_berangkat",
+            "end": 6
+          }
+        ],
+        "text": "1 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 12,
+            "value": "1 hari",
+            "entity": "trip_pulang",
+            "end": 18
+          }
+        ],
+        "text": "trip pulang 1 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 18,
+            "value": "2 hari",
+            "entity": "trip_pulang",
+            "end": 24
+          }
+        ],
+        "text": "perjalanan pulang 2 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 11,
+            "value": "5 hari",
+            "entity": "trip_pulang",
+            "end": 17
+          }
+        ],
+        "text": "perjalanan 5 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 5,
+            "value": "7 hari",
+            "entity": "trip_pulang",
+            "end": 11
+          }
+        ],
+        "text": "trip 7 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 7,
+            "value": "7 hari",
+            "entity": "trip_pulang",
+            "end": 13
+          }
+        ],
+        "text": "pulang 7 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 18,
+            "value": "4 hari",
+            "entity": "trip_pulang",
+            "end": 24
+          }
+        ],
+        "text": "membutuhkan waktu 4 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 23,
+            "value": "7 hari",
+            "entity": "trip_pulang",
+            "end": 29
+          }
+        ],
+        "text": "trip kuota cuti pulang 7 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 23,
+            "value": "6 hari",
+            "entity": "trip_pulang",
+            "end": 29
+          }
+        ],
+        "text": "kuota cuti trip pulang 6 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 21,
+            "value": "5 hari",
+            "entity": "trip_pulang",
+            "end": 27
+          }
+        ],
+        "text": "saya pakai kuota nya 5 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 11,
+            "value": "3 hari",
+            "entity": "trip_pulang",
+            "end": 17
+          }
+        ],
+        "text": "saya pakai 3 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 24,
+            "value": "1 hari",
+            "entity": "trip_pulang",
+            "end": 30
+          }
+        ],
+        "text": "kuota pulang saya pakai 1 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 6,
+            "value": "2 hari",
+            "entity": "trip_pulang",
+            "end": 12
+          }
+        ],
+        "text": "cukup 2 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 11,
+            "value": "2 hari",
+            "entity": "trip_pulang",
+            "end": 17
+          }
+        ],
+        "text": "sepertinya 2 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 22,
+            "value": "2 hari",
+            "entity": "trip_pulang",
+            "end": 28
+          }
+        ],
+        "text": "saya pakai kuota nya  2 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 4,
+            "value": "2 hari",
+            "entity": "trip_pulang",
+            "end": 10
+          }
+        ],
+        "text": "cus 2 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 8,
+            "value": "5 hari",
+            "entity": "trip_pulang",
+            "end": 14
+          }
+        ],
+        "text": "mau nya 5 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 14,
+            "value": "2 hari",
+            "entity": "trip_pulang",
+            "end": 20
+          }
+        ],
+        "text": "memakan waktu 2 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 5,
+            "value": "3 hari",
+            "entity": "trip_pulang",
+            "end": 11
+          }
+        ],
+        "text": "bisa 3 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 12,
+            "value": "2 hari",
+            "entity": "trip_pulang",
+            "end": 18
+          }
+        ],
+        "text": "bisa ga sih 2 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 11,
+            "value": "1 hari",
+            "entity": "trip_pulang",
+            "end": 17
+          }
+        ],
+        "text": "bisa pakai 1 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 17,
+            "value": "2 hari",
+            "entity": "trip_pulang",
+            "end": 23
+          }
+        ],
+        "text": "bisa pakai kuota 2 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 6,
+            "value": "3 hari",
+            "entity": "trip_pulang",
+            "end": 12
+          }
+        ],
+        "text": "pakai 3 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 0,
+            "value": "3 hari",
+            "entity": "trip_pulang",
+            "end": 6
+          }
+        ],
+        "text": "3 hari"
+      },
+      {
+        "intent": "trip_pulang",
+        "entities": [
+          {
+            "start": 0,
+            "value": "1 hari",
+            "entity": "trip_pulang",
+            "end": 6
+          }
+        ],
+        "text": "1 hari"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "ya"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "yes"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "y"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "tidak"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "tdk"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "t"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "no"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "n"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "yo"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "gas"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "betul"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "benar"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "bener"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "sip"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "mantap"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "gaskan"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "tepat"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "tepat sekali"
+      },
+      {
+        "intent": "konfirmasi",
+        "text": "gokil"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

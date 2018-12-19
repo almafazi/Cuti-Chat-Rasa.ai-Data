@@ -1,0 +1,101 @@
+intents:
+  - greet
+  - goodbye
+  - ask_cuti
+  - tipe_cuti
+  - start_date
+  - lama_cuti
+  - alamat
+  - telepon
+  - alasan
+  - ask_trip
+  - trip_berangkat
+  - trip_pulang
+  - konfirmasi
+  - thanks
+
+entities:
+  - ask_cuti
+  - tipe_cuti
+  - start_date
+  - lama_cuti
+  - alamat
+  - telepon
+  - alasan
+  - ask_trip
+  - trip_berngkat
+  - trip_pulang
+  - konfirmasi
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_cuti
+  - utter_lama_cuti
+  - utter_alamat
+  - utter_telepon
+  - utter_alasan
+  - utter_start_date
+  - utter_konfirmasi
+  - utter_ask_trip
+  - utter_trip_berangkat
+  - utter_trip_pulang
+  - utter_tipe_cuti
+  - utter_thanks
+  - action_get_time
+
+slots:
+  time:
+    type: text
+  tipe_cuti:
+    type: text
+  start_date:
+    type: text
+  lama_cuti:
+    type: text
+  alamat:
+    type: text
+  telepon:
+    type: text
+  alasan:
+    type: text
+  trip_berangkat:
+    type: text
+  trip_pulang:
+    type: text
+
+templates:
+  utter_greet:
+    - text: "Selamat {time}, ada yang bisa dibantu?"
+  utter_ask_cuti:
+    - text: "Siap, mau pakai kuota cuti apa?"
+  utter_tipe_cuti:
+    - text: "okay, memakai kuota cuti {tipe_cuti} ya, Mau cuti mulai tanggal berapa nih?"
+  utter_start_date:
+    - text: "Sip, cuti dari {start_date} yaaa..., mau berapa hari ambil cuti nya?"
+  utter_lama_cuti:
+    - text: "Boleh tau alamat selama cuti dimana?"
+  utter_alamat:
+    - text: "Boleh tau no. HP nya?"
+  utter_telepon:
+    - text: "Keterangan atau alasan selama cuti?"
+  utter_alasan:
+    - text: "Apakah mau memakai cuti perjalanan?"
+  utter_ask_trip:
+    - text: "Berapa hari perjalanan cuti berangkat anda?"
+  utter_trip_berangkat:
+    - text: "Berapa hari perjalanan cuti pulang anda?"
+  utter_trip_pulang:
+    - text: "Kami konfirmasi lagi yaa , anda akan melakukan dengan menggunakan kuota cuti {tipe_cuti},
+     cuti dari {start_date} sampai (ga ada ini) alamat cuti di {alamat}
+     dengan lama perjalanan cuti berangkat {trip_berangkat} dan lama perjalanan cuti pulang {trip_pulang}
+     , Nomor telepon yang bisa dihubungi adalah {telepon}, Alasan cuti adalah {alasan}, Apakah Betul?"
+  utter_konfirmasi:
+  - text: "Kami konfirmasi lagi yaa , anda akan melakukan dengan menggunakan kuota cuti {tipe_cuti},
+   cuti dari {start_date} sampai (ga ada ini) alamat cuti di {alamat}
+   dengan lama perjalanan cuti berangkat {trip_berangkat} dan lama perjalanan cuti pulang {trip_pulang}
+   , Nomor telepon yang bisa dihubungi adalah {telepon}, Alasan cuti adalah {alasan}, Apakah Betul?"
+  utter_thanks:
+    - text: "Haturnuhun"
+  utter_goodbye:
+    - text: "Goodbye!"
